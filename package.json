@@ -1,0 +1,21 @@
+{
+  "name": "steambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node main.js",
+    "deploy": "pm2 start main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-telegram-bot-api": "^0.65.1"
+  }
+}
